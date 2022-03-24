@@ -49,12 +49,12 @@ class MyApp extends StatelessWidget {
               breakpoints: [
                 ResponsiveBreakpoint(breakpoint: 450, name: MOBILE),
                 ResponsiveBreakpoint(
-                    breakpoint: 800, name: TABLET, autoScale: true),
+                    breakpoint: 800, name: TABLET),
                 ResponsiveBreakpoint(
-                    breakpoint: 1000, name: TABLET, autoScale: true),
+                    breakpoint: 1000, name: TABLET),
                 ResponsiveBreakpoint(breakpoint: 1200, name: DESKTOP),
                 ResponsiveBreakpoint(
-                    breakpoint: 2460, name: "4K", autoScale: true),
+                    breakpoint: 2460, name: "4K"),
               ],
               background: Container(
                 color: isDark(context) ? bgDark : fgDark,
