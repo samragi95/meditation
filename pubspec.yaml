@@ -21,8 +21,8 @@ dependencies:
   copy_with_extension: ^1.2.0
   flutter_localizations:
     sdk: flutter
-  intl: ^0.16.1
-  intl_translation: ^0.17.10+1
+  intl: ^0.17.0-nullsafety.2
+
 
 dev_dependencies:
   flutter_test:
